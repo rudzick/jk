@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de-de" style="height:100%;width:100%;margin:0;padding:0">
+
+<!--
+Based on http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden
+-->
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="content-script-type" content="text/javascript" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <meta http-equiv="content-language" content="de">
+  <!--
+  <link rel="stylesheet" type="text/css" href="../css/gm.css">
+  -->
+<!--
+  <script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"></script>
+   -->
+  <script type="text/javascript" src="../OL/OpenLayers.js"></script> 
+  <!--
+  <script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+  -->
+  <script type="text/javascript" src="../OL/OpenStreetMap.js"></script>
+  
+<script type="text/javascript">
+var karte;
+var kml_layer; 
+
+ function osm_byg() { 
+  
+  var options = {
+	projection: new OpenLayers.Projection("EPSG:3587"),
+    displayProjection: new OpenLayers.Projection("EPSG:4326"),
+    units: "m",
+    maxResolution: 156543.03390625,
+    maxExtent: new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34),
+    allOverlays: false
+    //    panMethod: OpenLayers.Easing.Quad.linearOut,
+    //    panDuration: 20000
+  };
+  
+  
+  
+  karte = new OpenLayers.Map('karte', options);
+//  karte = new OpenLayers.Map(options);
+  
+  // Vermeiden von rosa Tiles
+  OpenLayers.IMAGE_RELOAD_ATTEMPTS = 10;
+  OpenLayers.Util.onImageLoadErrorColor = "red"; 
+    
+  var osm_mapnik = new OpenLayers.Layer.OSM.Mapnik(
+						   "OpenStreetMap (Mapnik)",
+						   {
+						   identifier: "osm_mapnik",
+						       numZoomLevels: 22
+						       }
+						   );
+  osm_mapnik.id = "osm_mapnik";
+
+  
+  var osm_cyclemap = new OpenLayers.Layer.OSM.CycleMap(
+						       "OpenStreetMap (Cyclemap)",
+						       {
+						       identifier: "osm_cyclemap",
+							   numZoomLevels: 22,
+							   visibility: false}
+						       );
+  osm_cyclemap.id = "osm_cyclemap";
+
+  var osm_transportmap = new OpenLayers.Layer.OSM.TransportMap(
+						       "OSM (Transport Map)",
+						       {
+						       identifier: "osm_transportmap",
+							   numZoomLevels: 22,
+							   visibility: false}
+						       );
+  osm_transportmap.id = "osm_transportmap";
+
+  
+
+  //  karte.addLayers([osm_mapnik, osm_cyclemap, osm_transportmap, gmap, gphys, ghyb, gsat, y_road, y_hybrid, y_sat, b_road, b_sat, osm_mapnik_ol, osm_cyclemap_ol, osm_transportmap_ol]);
+    karte.addLayers([osm_mapnik, osm_cyclemap, osm_transportmap]);
+ 
+  karte.addControl(new OpenLayers.Control.LayerSwitcher({'ascending':true}));
+  karte.addControl(new OpenLayers.Control.Navigation(
+							     {dragPanOptions: {interval: 100, enableKinetic: true}}
+							     ));
+  karte.addControl(new OpenLayers.Control.Permalink('permalink')); 
+}
+
+function set_kml_layer(Schluessel) {
+
+ 
+ kml_layer = new OpenLayers.Layer.Vector("Photos",{
+    protocol: new OpenLayers.Protocol.HTTP
+						  ({
+						  url: "../KML/" + Schluessel + ".kml",
+						      format: new OpenLayers.Format.KML({extractStyles: true, extractAttributes: true})
+						      }),
+						  strategies: [new OpenLayers.Strategy.Fixed(),new OpenLayers.Strategy.Cluster()],
+						  projection: new OpenLayers.Projection('EPSG:4326')
+						  });
+  //Create a style object to be used by a StyleMap object
+ var kml_style = new OpenLayers.Style({
+      'fillColor': '#546e76',
+	'fillOpacity': .8,
+	'fontColor': '#f0f0f0',
+	'fontFamily': 'arial, sans-serif',
+	'fontSize': '.9em',
+	'fontWeight': 'bold',
+	'label': '${num_points}',
+	'pointRadius': '${point_radius}',
+	'strokeColor': '#f0f0f0',
+	'strokeWidth': 3
+	},
+    //Second parameter contains a context parameter
+    {
+    context: {
+      num_points: function(feature){ return feature.
+		      attributes.count; },
+	  point_radius: function(feature){
+	  return 9 + (feature.attributes.count) * 0.12
+	    }
+      }
+    });
+
+  var kml_style_select = new OpenLayers.Style({
+      'fillColor': '#f0f0f0',
+	'fontColor': '#546e76',
+	'strokeColor': '#546e76'
+      });
+    //Create a style map object and set the 'default' intent to the
+    var kml_style_map = new OpenLayers.StyleMap({
+	'default': kml_style,
+	  'select': kml_style_select
+	  });
+  //Add the style map to the vector layer
+  kml_layer.styleMap = kml_style_map;
+
+  //Add a select feature control
+  var select_feature_control = new OpenLayers.Control.SelectFeature(kml_layer,{});
+  karte.addControl(select_feature_control);
+  select_feature_control.activate();
+
+  kml_layer.events.register('featureselected', this, on_select_feature);
+  kml_layer.events.register('featureunselected', this, on_unselect_feature); 
+
+};
+
+function on_select_feature(event){
+  //Store a reference to the element
+  var info_div = document.getElementById('photo_info_wrapper');
+  info_div.innerHTML = '';
+  //Store the clusters
+  var cluster = event.feature.cluster;
+  //Loop through the cluster features
+  for(var i=0; i<cluster.length; i++){
+    //Update the div with the info of the photos
+    info_div.innerHTML += cluster[i].attributes.description;
+  }
+};
+
+function on_unselect_feature(event){
+    //Store a reference to the element
+  var info_div = document.getElementById('photo_info_wrapper');
+  //Clear out the div
+  info_div.innerHTML = '';
+};
+  
+function set_gpx_layer(Schluessel, Bezeichner, Farbe) {
+  
+  var styleTrack = {strokeColor: Farbe, strokeWidth: 2, fillColor: Farbe, pointRadius: 5, opacity: 0.5};
+
+ var GpxTrack = new OpenLayers.Layer.Vector(Bezeichner,{
+    protocol: new OpenLayers.Protocol.HTTP
+						  ({
+						  url: "../Gpx/" + Schluessel + ".gpx",
+						      format: new OpenLayers.Format.GPX({extractWaypoints: true, extractAttributes: true})
+						      }),
+						  strategies: [new OpenLayers.Strategy.Fixed()],
+						  style: styleTrack,
+						  projection: new OpenLayers.Projection("EPSG:4326")
+						  });
+
+ return GpxTrack;
+
+};
+function jumpTo(lon, lat, zoom)
+{
+    var x = Lon2Merc(lon);
+    var y = Lat2Merc(lat);
+    karte.setCenter(new OpenLayers.LonLat(x, y), zoom);
+    return false;
+}
+function Lon2Merc(lon)
+{
+    return 20037508.34 * lon / 180;
+}
+function Lat2Merc(lat)
+{
+    var PI = 3.14159265358979323846;
+    lat = Math.log(Math.tan( (90 + lat) * PI / 360)) / (PI / 180);
+    return 20037508.34 * lat / 180;
+}
+
+
+function init() {
+
+ osm_byg(); 
+
+  
+
+  set_kml_layer("2013_09_08_Elstal_Brandenburg");
+
+  var lTrackGpx = set_gpx_layer("2013_09_08_Elstal_Brandenburg","tour Meyenburg-Wittenberge","#FF0000"); 
+
+ karte.addLayer(lTrackGpx);
+ lTrackGpx.setVisibility(true);
+  
+ karte.addLayer(kml_layer);
+
+  karte.setCenter((new OpenLayers.LonLat(12.76199, 52.47316)).transform(new OpenLayers.Projection('EPSG:4326'), new OpenLayers.Projection('EPSG:900913')), 11);
+
+}
+
+</script>
+
+</head>
+<body onload="init()" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" style="height:100%;width:100%;margin:0;padding:0">
+  <h3 id="ueberschr" >OpenLayers-Karte mit JavaFX</h3>
+  <div id="karte" style="height:400px;width:600px;border:2px solid black;">
+  </div>
+  <div id="photo_info_wrapper"></div>
+</body>
+</html>

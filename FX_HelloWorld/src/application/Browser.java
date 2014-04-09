@@ -26,7 +26,7 @@ public class Browser extends Region {
 		String m_latitude = "52.5234051";
 	//	webEngine.executeScript("if (!document.getElementById('FirebugLite')){E = document['createElement' + 'NS'] && document.documentElement.namespaceURI;E = E ? document['createElement' + 'NS'](E, 'script') : document['createElement']('script');E['setAttribute']('id', 'FirebugLite');E['setAttribute']('src', 'https://getfirebug.com/' + 'firebug-lite.js' + '#startOpened');E['setAttribute']('FirebugLite', '4');(document['getElementsByTagName']('head')[0] || document['getElementsByTagName']('body')[0]).appendChild(E);E = new Image;E['setAttribute']('src', 'https://getfirebug.com/' + '#startOpened');}"); 
 	//	webEngine.executeScript("document.jumpTo("+m_longitude+","+m_latitude+","+m_osmzoom+")");
-		webEngine.executeScript("document.dummy");
+	//	webEngine.executeScript("document.dummy");
 	//	webEngine.executeScript("history.back()");
 	//	webEngine.loadContent("<html><body><h1><em>Hallo</em> Welt</blink></h1></body></html>");
 		System.out.println("Webseite geladen");
