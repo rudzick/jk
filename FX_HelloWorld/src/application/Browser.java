@@ -2,7 +2,7 @@ package application;
 
 import java.net.URL;
 
-import util.BrowserUtils;
+import utils.BrowserUtils;
 import javafx.geometry.HPos;
 import javafx.geometry.VPos;
 import javafx.scene.layout.Region;
@@ -37,7 +37,7 @@ public class Browser extends Region {
         
       //  webEngine.loadContent("<html><body></body><html>");
         System.out.println("-->"+webEngine.documentProperty());
-        BrowserUtils.webDocLoadCompleted(webEngine);
+      utils.BrowserUtils.webDocLoadCompleted(webEngine);
 	}
 	
 	public WebView getBrowser() {

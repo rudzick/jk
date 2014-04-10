@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>2013_09_08_Elstal_Brandenburg</name>
+<Style id="lineStyle">
+<PolyStyle>
+<color>3feeee17</color>
+</PolyStyle>
+<LineStyle>
+<color>99eeee17</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="camera">
+<scale>1.1</scale>
+<IconStyle>
+<color>ffffffff</color>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal4/icon38.png</href>
+<x>192</x>
+<y>96</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+
+<Folder>
+<name>Photos</name>
+
+<Placemark>
+<name>P1030193.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030193.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030193.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.9987644762,52.5475392857,39.653</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030194.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030194.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030194.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.9987658452,52.5475341071,39.653</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030195.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030195.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030195.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.01285075,52.53957675,48.922</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030196.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030196.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030196.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0124740909,52.5397666364,48.822</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030197.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030197.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030197.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0122585217,52.5396998913,49.139</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030198.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030198.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030198.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.011472375,52.5396101875,49.983</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030199.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030199.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030199.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0113841739,52.5395617826,49.983</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030200.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030200.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030200.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.010963,52.5383295,49.709</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030201.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030201.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030201.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0109823111,52.5375536,52.042</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030202.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030202.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030202.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0110100444,52.5375728,52.042</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030203.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030203.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030203.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0113209714,52.5377422571,51.328</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030204.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030204.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030204.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0112597273,52.5380365455,51.392</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030205.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030205.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030205.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0115904444,52.5380305556,50.414</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030206.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030206.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030206.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.011611,52.53804,50.414</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030207.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030207.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030207.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0116233333,52.5380456667,50.679</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030208.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030208.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030208.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0116001224,52.5380677959,50.679</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030209.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030209.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030209.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0115751429,52.5380734286,50.580</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030210.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030210.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030210.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0109775556,52.5377187778,51.309</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030211.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030211.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030211.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0108495,52.537594,51.039</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030212.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030212.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030212.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0107318409,52.5375611136,50.683</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030213.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030213.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030213.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0107536765,52.5373634412,48.967</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030214.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030214.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030214.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0107502794,52.5373590735,48.967</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030215.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030215.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030215.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0100745294,52.5375154706,48.903</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030216.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030216.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030216.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0094304444,52.5374204444,50.702</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030217.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030217.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030217.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0094160889,52.5374136889,51.013</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030218.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030218.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030218.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.008656,52.53744,50.031</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030219.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030219.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030219.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0082452308,52.5371218462,49.325</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030220.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030220.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030220.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0082035366,52.5370713415,49.752</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030221.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030221.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030221.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.008177561,52.5370439024,49.752</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030222.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030222.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030222.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0081377317,52.5370018293,49.220</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030223.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030223.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030223.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.008310386,52.5369724912,50.389</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030224.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030224.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030224.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0083518421,52.5369495263,50.389</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030225.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030225.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030225.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0087686364,52.5367958182,50.083</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030226.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030226.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030226.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.008715,52.5368641212,49.689</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030227.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030227.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030227.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0084878182,52.5370982727,50.780</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030228.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030228.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030228.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0086825455,52.5371491818,52.122</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030229.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030229.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030229.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.008564,52.537002,52.005</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030230.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030230.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030230.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0083913333,52.5363095556,55.930</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030231.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030231.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030231.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.009042,52.5363913158,55.129</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030232.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030232.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030232.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.009058439,52.5364705122,55.972</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030233.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030233.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030233.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0092658,52.5365092,54.183</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030234.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030234.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030234.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0131904,52.5372066,39.262</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030235.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030235.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030235.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0133640392,52.5372091765,38.893</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030236.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030236.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030236.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0129168,52.5387622,47.798</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030237.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030237.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030237.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>13.0129118526,52.5387734632,47.798</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030238.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030238.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030238.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.8167398077,52.5283629231,37.525</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030239.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030239.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030239.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.81706,52.52834,37.056</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030240.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030240.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030240.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.8170009623,52.5283125094,36.246</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030241.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030241.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030241.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6266928039,52.4347002353,34.023</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030242.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030242.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030242.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6267446667,52.4347446667,34.181</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030243.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030243.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030243.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264660909,52.4348704091,38.200</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030244.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030244.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030244.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264671154,52.4348271923,43.321</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030245.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030245.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030245.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.626514029,52.4349002174,45.710</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030246.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030246.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030246.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6265005942,52.4348849565,45.710</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030247.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030247.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030247.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264655145,52.4348451087,48.370</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030248.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030248.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030248.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.626456558,52.4348349348,48.370</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030249.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030249.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030249.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264393913,52.4348154348,48.370</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030250.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030250.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030250.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264161613,52.434796,48.370</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030251.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030251.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030251.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264150081,52.43480425,48.370</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030252.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030252.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030252.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264134355,52.4348155,48.370</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030253.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030253.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030253.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.6264108145,52.43483425,48.370</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030254.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030254.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030254.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.5764174638,52.4212785217,37.538</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>P1030255.JPG</name>
+<description><![CDATA[<a href='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/P1030255.JPG' target='_blank'> <img src='http://www.rudzick.de/Tourenbilder/2013_09_08_Elstal_Brandenburg/thumbs/thumb_P1030255.JPG'/></a>]]></description>
+<styleUrl>#camera</styleUrl>
+<Point>
+<coordinates>12.5619631429,52.4100796122,36.672</coordinates>
+</Point>
+</Placemark></Folder>
+
+</Document>
+</kml>
