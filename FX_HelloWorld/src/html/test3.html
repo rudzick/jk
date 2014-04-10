@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de-de" style="height:100%;width:100%;margin:0;padding:0">
 
 <!--
@@ -23,10 +23,12 @@ Based on http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden
   <script type="text/javascript" src="../OL/OpenStreetMap.js"></script>
   
 <script type="text/javascript">
+
 var karte;
 var kml_layer; 
 
- function osm_byg() { 
+ function osm_byg() {
+   
   
   var options = {
 	projection: new OpenLayers.Projection("EPSG:3587"),
@@ -215,7 +217,8 @@ function init() {
   var lTrackGpx = set_gpx_layer("2013_09_08_Elstal_Brandenburg","tour Meyenburg-Wittenberge","#FF0000"); 
 
  karte.addLayer(lTrackGpx);
- lTrackGpx.setVisibility(true);
+ lTrackGpx.setVisibility(false);
+ kml_layer.setVisibility(false);
   
  karte.addLayer(kml_layer);
 
@@ -223,12 +226,17 @@ function init() {
 
 }
 
+function reset() {
+
+	karte.setCenter((new OpenLayers.LonLat(12.76199, 52.47316)).transform(new OpenLayers.Projection('EPSG:4326'), new OpenLayers.Projection('EPSG:900913')), 11);
+}
+
 </script>
 
 </head>
 <body onload="init()" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" style="height:100%;width:100%;margin:0;padding:0">
   <h3 id="ueberschr" >OpenLayers-Karte mit JavaFX</h3>
-  <div id="karte" style="height:400px;width:600px;border:2px solid black;">
+  <div id="karte" style="height:100%;width:100%;border:2px solid black;">
   </div>
   <div id="photo_info_wrapper"></div>
 </body>
